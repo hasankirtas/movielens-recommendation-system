@@ -1,0 +1,19 @@
+name: recommendation-system
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - scikit-surprise
+  - imbalanced-learn
+  - pip
+  - pip:
+      - lightfm
+      - surprise
