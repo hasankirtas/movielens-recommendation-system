@@ -67,9 +67,7 @@ Instead, I opted for a dynamic recommendation model, which intelligently switche
 
 #### 5. Challenges and Solutions
 
-- **Handling Sparse Data:** The MovieLens dataset is sparse with many missing values. I addressed this by filling missing ratings with default values and applying matrix factorization techniques.
 - **Feature Engineering:** One of the challenges was selecting relevant features that could enhance the recommendation model. I solved this by experimenting with user interaction data, genre preferences, and age group-based filtering.
-- **Model Evaluation:** Ensuring the models didn't overfit was challenging. I applied cross-validation techniques and regularization methods to address this.
 
 ### Tools and Libraries Used
 
